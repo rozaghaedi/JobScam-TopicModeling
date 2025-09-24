@@ -1,20 +1,10 @@
-# Jupyter
-.ipynb_checkpoints/
-*.egg-info/
+# Sensitive code
+/src/core_algorithm/
+/models/trained_models/
+/config/api_keys.py
+sensitive_data/
+private_notebooks/
 
-# Python
-__pycache__/
-*.pyc
-
-# Data (keep small samples only)
-data/*
-!data/stopwords.txt
-!data/Industry_Count.csv
-!data/FradulentJobs.csv
-!data/fake_job_postings.csv
-
-# Models / big outputs
-models/
-outputs/*
-!outputs/reqExperience_results.txt
-
+# Keep only demo files
+!demo/
+!examples/
