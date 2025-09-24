@@ -1,1 +1,20 @@
+# Jupyter
+.ipynb_checkpoints/
+*.egg-info/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data (keep small samples only)
+data/*
+!data/stopwords.txt
+!data/Industry_Count.csv
+!data/FradulentJobs.csv
+!data/fake_job_postings.csv
+
+# Models / big outputs
+models/
+outputs/*
+!outputs/reqExperience_results.txt
 
